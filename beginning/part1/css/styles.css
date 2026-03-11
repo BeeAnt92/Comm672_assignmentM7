@@ -33,4 +33,7 @@ body {
     align-content: center;
 }
 
-
+.g3 {
+    grid-template-areas: 
+    "header";
+}
