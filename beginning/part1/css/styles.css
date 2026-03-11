@@ -3,4 +3,22 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.container {
+    display: grid;
+}
+
+.g1 {    
+    grid-template-columns: repeat(3, 80px);
+    gap: 10px;    
+}
+
+.g1 .item {
+    box-sizing: border-box;
+    background-color: lightgray;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
 
