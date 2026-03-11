@@ -19,6 +19,18 @@ body {
     padding: 30px;
 }
 
+.g2 {
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(2, 50px minmax(75px, 1fr));
+    gap: 15px;
+}
 
+.g2 .item {
+    box-sizing: border-box;
+    color: white;
+    background-color: lightcoral;
+    text-align: center;
+    align-content: center;
+}
 
 
