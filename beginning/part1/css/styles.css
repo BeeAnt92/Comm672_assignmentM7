@@ -35,12 +35,12 @@ body {
 
 .g3 {
     grid-template-areas: 
-    "header header header header"
-    "aside aside articles articles"
-    "aside aside featured featured"
-    "footer footer footer footer";
-    grid-template-rows: 30px 2fr 1fr 30px;
-    grid-template-columns: 100px 1px 1fr;
+    "header header"
+    "aside articles"
+    "aside featured"
+    "footer footer";
+    grid-template-rows: 30px 2fr 30px;
+    grid-template-columns: 100px 2fr;
     font-size: 1.5em;
     text-align: start;
     height: 400px;
@@ -58,14 +58,17 @@ aside {
     background-color: lightpink;
 }
 
-main {
-    
+main {    
+    height: 360px;
+}
+
+.articles, .featured {
+
 }
 
 main .articles {
     grid-area: articles;
     background-color: lightseagreen;
-    grid-column: span1 ;
 }
 
 main .featured {
@@ -77,5 +80,6 @@ footer {
     grid-area: footer;
     background-color: lightgray;
 }
+
 
 /* figure out how to have main span whole box */
